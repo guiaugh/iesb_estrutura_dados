@@ -28,7 +28,7 @@ var obj = {name: 'Pedro'}
 var person1 = obj
 var person2 = obj
 
-console.log(person1 === person2)*/
+console.log(person1 === person2)
 
 var num = 1 
 if (num === 1) {  
@@ -87,4 +87,46 @@ function sum(num1, num2){
 }
 
 var result = sum(3, 3)
-output(result)
+output(result)*/
+
+var obj = {
+    name: {
+        first: 'Guilherme',
+        last: 'Rezende'
+    },
+    adress: 'Qnn QNn Qnn qnn'
+};
+
+console.log(obj.adress)
+
+/*function Book(title, pages, isbn){
+    this.title = title;
+    this.pages = pages;
+    this.isbn = isbn;
+}
+
+var book = new Book('Livro livro', 125, '555-555-555')
+
+console.log(book.title)
+book.title = 'Livro Livro livro'
+console.log(book.title)
+console.log('Esse livro possui ' + book.pages + ' páginas')*/
+
+
+/*function Book(title, pages, isbn){
+    this.title = title;
+    this.pages = pages;
+    this.isbn = isbn;
+    this.printIsbn = function(){
+        console.log('ISBN: ' + this.isbn)
+    }
+}
+
+var book = new Book('Livro livro', 125, '555-555-555')
+
+Book.prototype.printTitle = function(){
+    console.log(this.title)
+}
+
+book.printIsbn();
+book.printTitle();*/
