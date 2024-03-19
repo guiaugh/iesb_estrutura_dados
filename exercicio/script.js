@@ -13,7 +13,3 @@ function mostrarAno(){
         console.log(anoAtual)      
     }
 }
-
-function adicionarIdade(){
-}
-
