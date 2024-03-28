@@ -171,7 +171,7 @@ console.log(myMap)*/
 
 //console.log(evenNumbers)
 
-let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+//let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
 /*console.log(numbers.reduce((previous, current) => previous + current))
 console.log('--------')
 for(const n of numbers){
@@ -190,7 +190,7 @@ for (const n of iterator) {
 }*/
 
 
-let aEntries = numbers.entries()
+/*let aEntries = numbers.entries()
 console.log(aEntries.next().value)
 console.log(aEntries.next().value)
 console.log(aEntries.next().value)
@@ -230,4 +230,5 @@ console.log(numbers)
 let nomes = ['Maria', 'Angelica', 'Luiza', 'Kelly', 'Rafaela', 'Marcela', 'Beatriz']
 
 console.log(nomes.sort().join(', '))
+*/
 
